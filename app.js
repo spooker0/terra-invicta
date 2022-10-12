@@ -385,7 +385,7 @@ function getTechIconFile(techCategory) {
     } else if (techCategory === "MilitaryScience") {
         shortName = "military";
     } else if (techCategory === "SocialScience") {
-        shortName = "social";
+        shortName = "society";
     } else if (techCategory === "SpaceScience") {
         shortName = "space";
     } else if (techCategory === "Xenology") {
