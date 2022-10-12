@@ -13,7 +13,7 @@ function draw() {
             hierarchical: {
                 direction: "LR",
                 parentCentralization: false,
-                levelSeparation: 300
+                levelSeparation: 500
             },
             improvedLayout: false
         },
@@ -34,9 +34,10 @@ function draw() {
             },
             font: {
                 color: "black",
-                strokeWidth: 2,
-                strokeColor: "darkgray",
-                size: 20
+                face: "Roboto",
+                size: 25, 
+                multi: 'html',
+                bold: "25px Roboto black"
             },
             shapeProperties: {
                 useBorderWithImage: true,
@@ -86,7 +87,7 @@ function draw() {
         }
     });
 
-    let MIN_ZOOM = 0.3
+    let MIN_ZOOM = 0.35
     let MAX_ZOOM = 2.0
     let lastZoomPosition = { x: 0, y: 0 }
     network.on("zoom", function (params) {
@@ -108,7 +109,7 @@ function draw() {
         }
     });
     network.moveTo({
-        scale: 0.3,
+        scale: 0.35,
     });
 
     network.on("dragEnd", function (params) {
@@ -422,7 +423,7 @@ function parseNode(nodeType, dumpAllEdges) {
         }
 
         nodeBucket.push({
-            label: tech.friendlyName,
+            label: "<b>" + tech.friendlyName + "</b>",
             id: tech.dataName,
             shape: "circularImage",
             image: getTechIconFile(tech.techCategory),
