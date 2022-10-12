@@ -101,12 +101,13 @@ class TechSidebar extends React.Component {
 
             const dataModules = findModule(node.dataName);
             dataModules.forEach(dataModule => {
+                let icon = dataModule.iconResource ? dataModule.iconResource : dataModule.baseIconResource;
                 summaryElements.push(React.createElement(
                     'div',
                     null,
                     React.createElement(
                         'img',
-                        { src: "./icons/" + dataModule.iconResource + ".png" }
+                        { src: "./icons/" + icon + ".png" }
                     ),
                     React.createElement(
                         'pre',
