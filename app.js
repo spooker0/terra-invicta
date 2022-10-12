@@ -35,7 +35,7 @@ function draw() {
             font: {
                 color: "black",
                 face: "Roboto",
-                size: 25, 
+                size: 25,
                 multi: 'html',
                 bold: "25px Roboto black"
             },
@@ -203,29 +203,32 @@ function init() {
         });
     }).then(() => {
         hideSidebar();
-        parseDefaults(() => {
-            const hash = window.location.hash.substring(1);
-            if (hash) {
-                nodeSelected({ nodes: [hash] });
-                network.selectNodes([hash]);
-                network.focus(hash);
-                network.moveTo({
-                    scale: 1.0,
-                });
-            }
+
+        Promise.all([
+            fetchModule("TITechTemplate.json", "tech", () => {
+                techs = modules.tech;
+            }),
+            fetchModule("TIProjectTemplate.json", "project", () => {
+                projects = modules.project;
+            }),
+            fetchModule("TIEffectTemplate.json", "effect", () => {
+                effects = modules.effect;
+            })
+        ]).then(() => {
+            parseDefaults(() => {
+                const hash = window.location.hash.substring(1);
+                if (hash) {
+                    nodeSelected({ nodes: [hash] });
+                    network.selectNodes([hash]);
+                    network.focus(hash);
+                    network.moveTo({
+                        scale: 1.0,
+                    });
+                }
+            });
+
+            initSidebar();
         });
-
-        initSidebar();
-    });
-
-    fetchModule("TITechTemplate.json", "tech", () => {
-        techs = modules.tech;
-    });
-    fetchModule("TIProjectTemplate.json", "project", () => {
-        projects = modules.project;
-    });
-    fetchModule("TIEffectTemplate.json", "effect", () => {
-        effects = modules.effect;
     });
     fetchModule("TIDriveTemplate.json", "drive");
     fetchModule("TIGunTemplate.json", "gun");
@@ -244,7 +247,7 @@ function init() {
 }
 
 function fetchModule(path, modType, callback) {
-    fetch("data/" + path).then(res => res.text()).then(module => {
+    return fetch("data/" + path).then(res => res.text()).then(module => {
         parseModule(module, modType);
 
         if (callback) callback();
