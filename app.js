@@ -210,6 +210,9 @@ function init() {
             }),
             fetchModule("TIProjectTemplate.json", "project", () => {
                 projects = modules.project;
+                projects.forEach(project => {
+                    project.isProject = true;
+                });
             }),
             fetchModule("TIEffectTemplate.json", "effect", () => {
                 effects = modules.effect;

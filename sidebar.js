@@ -234,7 +234,8 @@ class TechSidebar extends React.Component {
                             },
                             variant: "contained",
                             className: "prereqButton",
-                            size: "small"
+                            size: "small",
+                            color: prereq.isProject ? "success" : "primary"
                         },
                         this.findTechByName(prereq) ? this.findTechByName(prereq).friendlyName : ""
                     )
@@ -275,7 +276,7 @@ class TechSidebar extends React.Component {
                             variant: "contained",
                             className: "prereqButton",
                             size: "small",
-                            color: "success"
+                            color: blocked.isProject ? "success" : "primary"
                         },
                         blocked.friendlyName
                     )
