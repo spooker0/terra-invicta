@@ -1,0 +1,167 @@
+[
+ {
+   "dataName": "SteelArmor",
+   "friendlyName": "Steel Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.02,
+      "metals": 0.98,
+      "nobleMetals": 0,
+      "exotics": 0
+   },
+   "requiredProjectName": "",
+   "density_kgm3": 7850,
+   "heatofVaporization_MJkg": 6.8,
+   "specialty": "ChippingResistance",
+   "iconResource": "shipbuildericons/ICO_SteelArmor"
+},
+ {
+   "dataName": "TitaniumArmor",
+   "friendlyName": "Titanium Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0,
+      "metals": 0,
+      "nobleMetals": 1,
+      "exotics": 0
+   },
+   "requiredProjectName": "",
+   "density_kgm3": 4500,
+   "heatofVaporization_MJkg": 8.77,
+   "specialty": "ChippingResistance",
+   "iconResource": "shipbuildericons/ICO_TitaniumArmor"
+},
+ {
+   "dataName": "SiliconCarbideArmor",
+   "friendlyName": "Silicon Carbide Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.5,
+      "metals": 0.5,
+      "nobleMetals": 0,
+      "exotics": 0
+   },
+   "requiredProjectName": "",
+   "density_kgm3": 3210,
+   "heatofVaporization_MJkg": 9.9,
+   "specialty": "None",
+   "iconResource": "shipbuildericons/ICO_SiliconCarbideArmor"
+},
+ {
+   "dataName": "BoronCarbideArmor",
+   "friendlyName": "Boron Carbide Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.5,
+      "metals": 0.5,
+      "nobleMetals": 0,
+      "exotics": 0
+   },
+   "requiredProjectName": "",
+   "density_kgm3": 2520,
+   "heatofVaporization_MJkg": 7.14,
+   "specialty": "KineticsResistance",
+   "iconResource": "shipbuildericons/ICO_BoronCarbideArmor"
+},
+ {
+   "dataName": "CompositeArmor",
+   "friendlyName": "Composite Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.5,
+      "metals": 0.25,
+      "nobleMetals": 0.25,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_CompositeArmor",
+   "density_kgm3": 1930,
+   "heatofVaporization_MJkg": 15,
+   "specialty": "None",
+   "iconResource": "shipbuildericons/ICO_CompositeArmor"
+},
+ {
+   "dataName": "NanotubeArmor",
+   "friendlyName": "Nanotube Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.6,
+      "metals": 0.35,
+      "nobleMetals": 0.05,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_NanotubeArmor",
+   "density_kgm3": 1720,
+   "heatofVaporization_MJkg": 29.6,
+   "specialty": "None",
+   "iconResource": "shipbuildericons/ICO_NanotubeArmor"
+},
+ {
+   "dataName": "AdamantaneArmor",
+   "friendlyName": "Adamantane Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.55,
+      "metals": 0.35,
+      "nobleMetals": 0.1,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_AdamantaneArmor",
+   "density_kgm3": 1800,
+   "heatofVaporization_MJkg": 59.534,
+   "specialty": "KineticsResistance",
+   "iconResource": "shipbuildericons/ICO_AdamantaneArmor"
+},
+ {
+   "dataName": "ExoticArmor",
+   "friendlyName": "Exotic Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.25,
+      "metals": 0.25,
+      "nobleMetals": 0.1,
+      "exotics": 0.4
+   },
+   "requiredProjectName": "Project_ExoticArmor",
+   "density_kgm3": 2200,
+   "heatofVaporization_MJkg": 70,
+   "specialty": "None",
+   "iconResource": "shipbuildericons/ICO_ExoticArmor"
+},
+ {
+   "dataName": "HybridArmor",
+   "friendlyName": "Hybrid Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.3,
+      "metals": 0.3,
+      "nobleMetals": 0.2,
+      "exotics": 0.2
+   },
+   "requiredProjectName": "Project_HybridArmor",
+   "density_kgm3": 1400,
+   "heatofVaporization_MJkg": 80,
+   "specialty": "LaserResistance",
+   "iconResource": "shipbuildericons/ICO_HybridArmor"
+},
+ {
+   "dataName": "AlienAdamantaneArmor",
+   "friendlyName": "Alien Adamantane Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.55,
+      "metals": 0.35,
+      "nobleMetals": 0.1,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_AlienMasterProject",
+   "density_kgm3": 1800,
+   "heatofVaporization_MJkg": 59.534,
+   "specialty": "KineticsResistance",
+   "iconResource": "shipbuildericons/ICO_AdamantaneArmor"
+},
+ {
+   "dataName": "AlienExoticArmor",
+   "friendlyName": "Alien Exotic Armor",
+   "weightedBuildMaterials": {
+      "volatiles": 0.4,
+      "metals": 0.4,
+      "nobleMetals": 0.1,
+      "exotics": 0.1
+   },
+   "requiredProjectName": "Project_AlienMasterProject",
+   "density_kgm3": 2200,
+   "heatofVaporization_MJkg": 70,
+   "specialty": "LaserResistance",
+   "iconResource": "shipbuildericons/ICO_ExoticArmor"
+}
+]

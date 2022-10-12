@@ -1,0 +1,192 @@
+[
+ {
+   "dataName": "Lithium-IonBattery",
+   "friendlyName": "Lithium-Ion Battery",
+   "energyCapacity_GJ": 15,
+   "rechargeRate_GJs": 0.005,
+   "weightedBuildMaterials": {
+      "water": null,
+      "volatiles": 0.2,
+      "metals": 0.8,
+      "nobleMetals": 0,
+      "fissiles": 0,
+      "exotics": 0
+   },
+   "requiredProjectName": "",
+   "crew": 0,
+   "mass_tons": 30,
+   "hp": 3,
+   "iconResource": "shipbuildericons/ICO_LithiumIonBattery"
+},
+ {
+   "dataName": "Lithium-SulfurBattery",
+   "friendlyName": "Lithium-Sulfur Battery",
+   "energyCapacity_GJ": 21,
+   "rechargeRate_GJs": 0.00625,
+   "weightedBuildMaterials": {
+      "water": null,
+      "volatiles": 0.39,
+      "metals": 0.6,
+      "nobleMetals": 0.01,
+      "fissiles": 0,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_Lithium-SulfurBattery",
+   "crew": 0,
+   "mass_tons": 35,
+   "hp": 3,
+   "iconResource": "shipbuildericons/ICO_Lithium-SulfurBattery"
+},
+ {
+   "dataName": "MoltenSaltBattery",
+   "friendlyName": "Molten Salt Battery",
+   "energyCapacity_GJ": 40,
+   "rechargeRate_GJs": 0.0075,
+   "weightedBuildMaterials": {
+      "water": null,
+      "volatiles": 0.2,
+      "metals": 0.8,
+      "nobleMetals": 0.1,
+      "fissiles": 0,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_MoltenSaltBattery",
+   "crew": 0,
+   "mass_tons": 80,
+   "hp": 3,
+   "iconResource": "shipbuildericons/ICO_MoltenSaltBattery"
+},
+ {
+   "dataName": "SaltWaterBattery",
+   "friendlyName": "Salt Water Battery",
+   "energyCapacity_GJ": 20,
+   "rechargeRate_GJs": 0.01,
+   "weightedBuildMaterials": {
+      "water": 0.8,
+      "volatiles": 0,
+      "metals": 0.2,
+      "nobleMetals": 0,
+      "fissiles": 0,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_SaltWaterBattery",
+   "crew": 0,
+   "mass_tons": 20,
+   "hp": 8,
+   "iconResource": "shipbuildericons/ICO_SaltWaterBattery"
+},
+ {
+   "dataName": "GrapheneBattery",
+   "friendlyName": "Graphene Battery",
+   "energyCapacity_GJ": 48,
+   "rechargeRate_GJs": 0.025,
+   "weightedBuildMaterials": {
+      "water": null,
+      "volatiles": 0.75,
+      "metals": 0.2,
+      "nobleMetals": 0.05,
+      "fissiles": 0,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_GrapheneBattery",
+   "crew": 1,
+   "mass_tons": 120,
+   "hp": 3,
+   "iconResource": "shipbuildericons/ICO_GrapheneBattery"
+},
+ {
+   "dataName": "QuantumBattery",
+   "friendlyName": "Quantum Battery",
+   "energyCapacity_GJ": 80,
+   "rechargeRate_GJs": 0.05,
+   "weightedBuildMaterials": {
+      "water": null,
+      "volatiles": 0.5,
+      "metals": 0.3,
+      "nobleMetals": 0.2,
+      "fissiles": 0,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_QuantumBattery",
+   "crew": 1,
+   "mass_tons": 80,
+   "hp": 3,
+   "iconResource": "shipbuildericons/ICO_QuantumBattery"
+},
+ {
+   "dataName": "SuperconductingCoilBattery",
+   "friendlyName": "Superconducting Coil Battery",
+   "energyCapacity_GJ": 40,
+   "rechargeRate_GJs": 0.075,
+   "weightedBuildMaterials": {
+      "water": null,
+      "volatiles": 0.5,
+      "metals": 0.3,
+      "nobleMetals": 0.2,
+      "fissiles": 0,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_SuperconductingCoilBattery",
+   "crew": 1,
+   "mass_tons": 2,
+   "hp": 4,
+   "iconResource": "shipbuildericons/ICO_SuperconductingCoilBattery"
+},
+ {
+   "dataName": "ExoticNanowireBattery",
+   "friendlyName": "Exotic Nanowire Battery",
+   "energyCapacity_GJ": 60,
+   "rechargeRate_GJs": 0.1,
+   "weightedBuildMaterials": {
+      "water": null,
+      "volatiles": 0.4,
+      "metals": 0.25,
+      "nobleMetals": 0.3,
+      "fissiles": 0,
+      "exotics": 0.05
+   },
+   "requiredProjectName": "Project_ExoticNanowireBattery",
+   "crew": 1,
+   "mass_tons": 10,
+   "hp": 4,
+   "iconResource": "shipbuildericons/ICO_ExoticNanowireBattery"
+},
+ {
+   "dataName": "AlienSuperconductingCoilBattery",
+   "friendlyName": "Alien Superconducting Coil Battery",
+   "energyCapacity_GJ": 40,
+   "rechargeRate_GJs": 0.075,
+   "weightedBuildMaterials": {
+      "water": null,
+      "volatiles": 0.5,
+      "metals": 0.3,
+      "nobleMetals": 0.2,
+      "fissiles": 0,
+      "exotics": 0
+   },
+   "requiredProjectName": "Project_AlienMasterProject",
+   "crew": 1,
+   "mass_tons": 2,
+   "hp": 6,
+   "iconResource": "shipbuildericons/ICO_SuperconductingCoilBattery"
+},
+ {
+   "dataName": "AlienExoticNanowireBattery",
+   "friendlyName": "Alien Exotic Nanowire Battery",
+   "energyCapacity_GJ": 60,
+   "rechargeRate_GJs": 0.1,
+   "weightedBuildMaterials": {
+      "water": null,
+      "volatiles": 0.4,
+      "metals": 0.25,
+      "nobleMetals": 0.3,
+      "fissiles": 0,
+      "exotics": 0.05
+   },
+   "requiredProjectName": "Project_AlienMasterProject",
+   "crew": 1,
+   "mass_tons": 10,
+   "hp": 8,
+   "iconResource": "shipbuildericons/ICO_ExoticNanowireBattery"
+}
+]

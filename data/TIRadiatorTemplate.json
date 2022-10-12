@@ -1,0 +1,212 @@
+[
+ {
+   "dataName": "AluminumFin",
+   "friendlyName": "Aluminum Fin",
+   "specificMass_2s_kgm2": 5,
+   "specificPower_2s_KWkg": 2.5,
+   "operatingTemp_K": 800,
+   "emissivity": 0.85,
+   "vulnerability": 30,
+   "collector": false,
+   "requiredProjectName": "",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "volatiles": 0,
+      "metals": 1,
+      "nobleMetals": 0,
+      "exotics": 0
+   },
+   "iconResource": "shipbuildericons/ICO_AluminumFinRadiator",
+   "combatUIpath": "fin",
+   "radiatorType": "Fin"
+},
+ {
+   "dataName": "TitaniumArray",
+   "friendlyName": "Titanium Array",
+   "specificMass_2s_kgm2": 17,
+   "specificPower_2s_KWkg": 5.5,
+   "operatingTemp_K": 1200,
+   "emissivity": 0.83,
+   "vulnerability": 20,
+   "collector": false,
+   "requiredProjectName": "",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "volatiles": 0,
+      "metals": 0,
+      "nobleMetals": 1,
+      "exotics": 0
+   },
+   "iconResource": "shipbuildericons/ICO_TitaniumArrayRadiator",
+   "combatUIpath": "fin",
+   "radiatorType": "Fin"
+},
+ {
+   "dataName": "MolybdenumPipe",
+   "friendlyName": "Molybdenum Pipe",
+   "specificMass_2s_kgm2": 75,
+   "specificPower_2s_KWkg": 4.5,
+   "operatingTemp_K": 1650,
+   "emissivity": 0.8,
+   "vulnerability": 10,
+   "collector": false,
+   "requiredProjectName": "Project_MolybdenumPipeRadiator",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "volatiles": 0,
+      "metals": 0.5,
+      "nobleMetals": 0.5,
+      "exotics": 0
+   },
+   "iconResource": "shipbuildericons/ICO_MolybdenumPipeRadiator",
+   "combatUIpath": "fin",
+   "radiatorType": "Fin"
+},
+ {
+   "dataName": "NanotubeFilament",
+   "friendlyName": "Nanotube Filament",
+   "specificMass_2s_kgm2": 24.5,
+   "specificPower_2s_KWkg": 6.5,
+   "operatingTemp_K": 1300,
+   "emissivity": 0.9,
+   "vulnerability": 5,
+   "collector": false,
+   "requiredProjectName": "Project_NanotubeFilamentRadiator",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "volatiles": 0.95,
+      "metals": 0.05,
+      "nobleMetals": 0,
+      "exotics": 0
+   },
+   "iconResource": "shipbuildericons/ICO_NanotubeFilamentRadiator",
+   "combatUIpath": "spike",
+   "radiatorType": "Spike"
+},
+ {
+   "dataName": "IonicDust",
+   "friendlyName": "Ionic Dust",
+   "specificMass_2s_kgm2": 140,
+   "specificPower_2s_KWkg": 3,
+   "operatingTemp_K": 1200,
+   "emissivity": 0.85,
+   "vulnerability": 1,
+   "collector": true,
+   "requiredProjectName": "Project_IonicDustRadiator",
+   "crew": 3,
+   "weightedBuildMaterials": {
+      "volatiles": 0.95,
+      "metals": 0.05,
+      "nobleMetals": 0,
+      "exotics": 0
+   },
+   "iconResource": "shipbuildericons/ICO_IonicDustRadiator",
+   "combatUIpath": "droplet",
+   "radiatorType": "Droplet"
+},
+ {
+   "dataName": "CobaltDust",
+   "friendlyName": "Cobalt Dust",
+   "specificMass_2s_kgm2": 70,
+   "specificPower_2s_KWkg": 5,
+   "operatingTemp_K": 1200,
+   "emissivity": 0.9,
+   "vulnerability": 1,
+   "collector": true,
+   "requiredProjectName": "Project_CobaltDustRadiator",
+   "crew": 3,
+   "weightedBuildMaterials": {
+      "volatiles": 0,
+      "metals": 0.05,
+      "nobleMetals": 0.95,
+      "exotics": 0
+   },
+   "iconResource": "shipbuildericons/ICO_CobaltDustRadiator",
+   "combatUIpath": "droplet",
+   "radiatorType": "Droplet"
+},
+ {
+   "dataName": "TinDroplet",
+   "friendlyName": "Tin Droplet",
+   "specificMass_2s_kgm2": 12,
+   "specificPower_2s_KWkg": 8,
+   "operatingTemp_K": 1030,
+   "emissivity": 0.96,
+   "vulnerability": 1,
+   "collector": true,
+   "requiredProjectName": "Project_TinDropletRadiator",
+   "crew": 3,
+   "weightedBuildMaterials": {
+      "volatiles": 0,
+      "metals": 1,
+      "nobleMetals": 0,
+      "exotics": 0
+   },
+   "iconResource": "shipbuildericons/ICO_TinDropletRadiator",
+   "combatUIpath": "droplet",
+   "radiatorType": "Droplet"
+},
+ {
+   "dataName": "ExoticSpike",
+   "friendlyName": "Exotic Spike",
+   "specificMass_2s_kgm2": 50,
+   "specificPower_2s_KWkg": 12,
+   "operatingTemp_K": 1900,
+   "emissivity": 0.9,
+   "vulnerability": 3,
+   "collector": false,
+   "requiredProjectName": "Project_ExoticSpikeRadiator",
+   "crew": 2,
+   "weightedBuildMaterials": {
+      "volatiles": 0.05,
+      "metals": 0.05,
+      "nobleMetals": 0.89,
+      "exotics": 0.01
+   },
+   "iconResource": "shipbuildericons/ICO_ExoticSpikeRadiator",
+   "combatUIpath": "spike",
+   "radiatorType": "Spike"
+},
+ {
+   "dataName": "DiamondoidSpike",
+   "friendlyName": "Diamondoid Spike",
+   "specificMass_2s_kgm2": 25,
+   "specificPower_2s_KWkg": 10,
+   "operatingTemp_K": 1650,
+   "emissivity": 0.93,
+   "vulnerability": 3,
+   "collector": false,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "volatiles": 0.9,
+      "metals": 0.05,
+      "nobleMetals": 0.05,
+      "exotics": 0
+   },
+   "iconResource": "shipbuildericons/ICO_DiamondoidSpikeRadiator",
+   "combatUIpath": "spike",
+   "radiatorType": "AlienSpike"
+},
+ {
+   "dataName": "ExoticTendril",
+   "friendlyName": "Exotic Tendril",
+   "specificMass_2s_kgm2": 50,
+   "specificPower_2s_KWkg": 12,
+   "operatingTemp_K": 2500,
+   "emissivity": 0.98,
+   "vulnerability": 1,
+   "collector": false,
+   "requiredProjectName": "Project_AlienMasterProject",
+   "crew": 1,
+   "weightedBuildMaterials": {
+      "volatiles": 0.9,
+      "metals": 0.04,
+      "nobleMetals": 0,
+      "exotics": 0.01
+   },
+   "iconResource": "shipbuildericons/ICO_ExoticTendrilRadiator",
+   "combatUIpath": "spike",
+   "radiatorType": "AlienSpike"
+}
+]

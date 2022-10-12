@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Terra Invicta Tech Tree</title>
+
+    <style type="text/css">
+        body {
+            font: 12pt Roboto;
+            background-color: #eee;
+        }
+
+        #options {
+            position: relative;
+            z-index: 1;
+            width: 350px;
+        }
+
+        h4 {
+            margin-bottom: 0.5em;
+        }
+
+        #searchBox {
+            padding: 1em;
+        }
+
+        #showProjects {
+            margin-top: 1em;
+        }
+
+        ul.hideBullets {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .topTechbarButton {
+            margin-right: 1em !important;
+        }
+
+        .prereqButton {
+            margin-right: 0.5em !important;
+            margin-bottom: 0.5em !important;
+            text-transform: none !important;
+        }
+
+        .hideButton {
+            display: none !important;
+        }
+
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 70px;
+            z-index: 1000;
+        }
+
+        #mynetwork {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            border: 1px solid lightgray;
+        }
+
+        #sidebar-react {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            width: 600px;
+            /* background-color: darkgray; */
+            display: block;
+            word-wrap: break-word;
+            overflow: auto;
+            padding: 1em;
+            margin: 0.5em;
+        }
+
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            word-break: break-all;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+    <script type="text/javascript" src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script type="text/javascript"
+        src="https://unpkg.com/@mui/material@5.10.9/umd/material-ui.production.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/elasticlunr@0.9.5/elasticlunr.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+</head>
+
+<body>
+    <div id="loading">Loading</div>
+    <div id="options"></div>
+
+    <div id="mynetwork"></div>
+
+    <div id="sidebar">
+    </div>
+
+    <script type="text/javascript" src="https://unpkg.com/vis-network@9.1.2/standalone/umd/vis-network.min.js"></script>
+
+    <!-- <script type="text/javascript" src="./data/TIEffectTemplate.js"></script>
+    <script type="text/javascript" src="./data/TITechTemplate.js"></script>
+    <script type="text/javascript" src="./data/TIProjectTemplate.js"></script> -->
+    <script type="text/javascript" src="./sidebar.js"></script>
+    <script type="text/javascript" src="./searchbox.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>
