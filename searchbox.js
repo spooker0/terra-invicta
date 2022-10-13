@@ -31,7 +31,7 @@ class Searchbox extends React.Component {
                     },
                     freeSolo: true,
                     onInputChange: (event, value) => {
-                        let results = searchIndex.search(value, { expand: true }).map(result => searchIndex.documentStore.getDoc(result.ref).friendlyName);
+                        const results = documentSearchIndex.search(value, { pluck: "friendlyName", enrich: true }).map(result => result.doc.friendlyName);
                         this.setState({ results: results });
                     },
                     onChange: (event, value) => {

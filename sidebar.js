@@ -130,7 +130,7 @@ class TechSidebar extends React.Component {
         const node = this.state.node;
         const data = this.props.data;
 
-        if (!node) {
+        if (!node || !node.dataName) {
             return React.createElement(
                 "h2",
                 null,
@@ -176,6 +176,26 @@ class TechSidebar extends React.Component {
             "See entire tree"
         );
 
+        const doneButtonText = node.researchDone ? "Mark undone" : "Mark done";
+        const markDone = React.createElement(
+            MaterialUI.Button,
+            {
+                variant: "contained",
+                onClick: event => {
+                    if (node.researchDone) {
+                        node.researchDone = false;
+                    } else {
+                        node.researchDone = true;
+                        this.getAncestorTechs(node).forEach(tech => tech.researchDone = true);
+                    }
+                    this.setState({ node: node });
+                },
+                className: "topTechbarButton",
+                color: node.researchDone ? "error" : "success"
+            },
+            doneButtonText
+        );
+
         const friendlyName = node.friendlyName;
 
         const summaryLabel = React.createElement(
@@ -186,6 +206,28 @@ class TechSidebar extends React.Component {
         const summaryText = this.getReadableSummary();
 
         const researchCost = node.researchCost ? node.researchCost : 0;
+        const ancestorTree = this.getAncestorTechs(node);
+        const ancestorTreeIds = ancestorTree.map(o => o.id);
+        const uniqueAncestorTree = ancestorTree.filter(({ id }, index) => !ancestorTreeIds.includes(id, index + 1));
+        const ancestorTreeProcessed = uniqueAncestorTree.filter(tech => !tech.researchDone);
+
+        const treeCost = uniqueAncestorTree.reduce((acc, curr) => acc + (curr.researchCost ? curr.researchCost : 0), 0)
+            + (node.researchDone ? 0 : researchCost);
+        const treeCostProcessed = ancestorTreeProcessed.reduce((acc, curr) => acc + (curr.researchCost ? curr.researchCost : 0), 0)
+            + (node.researchDone ? 0 : researchCost);
+        const treeCostString = treeCost == treeCostProcessed ? treeCost.toLocaleString() : treeCostProcessed.toLocaleString() + "/" + treeCost.toLocaleString();
+
+        const costText = [React.createElement(
+            'h4',
+            null,
+            "Cost: ",
+            researchCost.toLocaleString()
+        ), React.createElement(
+            'h5',
+            null,
+            "Total Tree Cost: ",
+            treeCostString
+        )];
 
         let resourceLabel, resourceText;
         if (node.resourcesGranted && node.resourcesGranted.filter(resource => resource.resource !== "").length > 0) {
@@ -233,9 +275,9 @@ class TechSidebar extends React.Component {
                                 updateLocationHash(prereq);
                             },
                             variant: "contained",
-                            className: "prereqButton",
+                            className: "prereqButton" + (this.findTechByName(prereq).researchDone ? " researchDone" : ""),
                             size: "small",
-                            color: prereq.isProject ? "success" : "primary"
+                            color: this.findTechByName(prereq).isProject ? "success" : "primary"
                         },
                         this.findTechByName(prereq) ? this.findTechByName(prereq).friendlyName : ""
                     )
@@ -399,6 +441,7 @@ class TechSidebar extends React.Component {
             // Controls
             isolateButton,
             seeWholeTreeButton,
+            markDone,
 
             // Heading
             React.createElement(
@@ -406,12 +449,7 @@ class TechSidebar extends React.Component {
                 null,
                 friendlyName
             ),
-            React.createElement(
-                'h4',
-                null,
-                "Cost: ",
-                researchCost.toLocaleString()
-            ),
+            costText,
 
             // Requirements
             prereqsText,

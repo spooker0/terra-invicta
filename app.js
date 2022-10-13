@@ -3,7 +3,7 @@ let nodes = [], lateNodes = [], edges = [], lateEdges = [], techTree = [];
 let projects, techs, effects;
 let techSidebar, searchBox;
 let localizationData = {};
-let searchIndex;
+let documentSearchIndex;
 let modules = {};
 
 function draw() {
@@ -275,13 +275,18 @@ function findModule(moduleName) {
 function initSearchBox() {
     searchBox = ReactDOM.render(React.createElement(Searchbox), document.getElementById("options"));
 
-    // Build index
-    searchIndex = elasticlunr(function () {
-        this.addField("friendlyName");
-        this.addField("dataName");
-        this.setRef("dataName");
+    documentSearchIndex = new FlexSearch.Document({
+        document: {
+            index: ["friendlyName"],
+            store: ["friendlyName", "dataName"]
+        },
+        tokenize: "full"
     });
-    techTree.forEach(tech => searchIndex.addDoc(tech));
+    techTree.forEach((tech, index) => {
+        tech.id = index;
+        documentSearchIndex.add(tech);
+    });
+
     techSidebar.setState({ techTree: techTree, effects: effects });
 }
 
