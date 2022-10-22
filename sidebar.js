@@ -263,23 +263,26 @@ class TechSidebar extends React.Component {
         if (node.prereqs && node.prereqs.filter(prereq => prereq !== "").length > 0) {
             let prereqElements = [];
             node.prereqs.filter(prereq => prereq !== "").forEach(prereq => {
+                let tech = this.findTechByName(prereq);
                 prereqElements.push(
                     React.createElement(
                         MaterialUI.Button,
                         {
                             key: prereq,
                             onClick: () => {
-                                this.setState({ node: this.findTechByName(prereq) });
+                                this.setState({ node: tech });
                                 network.selectNodes([prereq]);
                                 network.focus(prereq);
                                 updateLocationHash(prereq);
                             },
                             variant: "contained",
-                            className: "prereqButton" + (this.findTechByName(prereq).researchDone ? " researchDone" : ""),
+                            className: "prereqButton" + (tech.researchDone ? " researchDone" : ""),
                             size: "small",
-                            color: this.findTechByName(prereq).isProject ? "success" : "primary"
+                            title: tech.isProject ? "Faction Project" : "Global Research",
+                            'aria-label': tech ? (tech.friendlyName + " "  + (tech.isProject ? "Faction Project" : "Global Research")) : "",
+                            color: tech.isProject ? "success" : "primary"
                         },
-                        this.findTechByName(prereq) ? this.findTechByName(prereq).friendlyName : ""
+                        tech ? tech.friendlyName : ""
                     )
                 );
             });
@@ -299,9 +302,10 @@ class TechSidebar extends React.Component {
         }
 
         let blockingText, blockingList;
-        if (this.findBlockingTechs(node).length > 0) {
+        let blockingTechs = this.findBlockingTechs(node);
+        if (blockingTechs.length > 0) {
             let blockerElements = [];
-            this.findBlockingTechs(node).forEach(blocked => {
+            blockingTechs.forEach(blocked => {
                 blockerElements.push(
                     React.createElement(
                         MaterialUI.Button,
@@ -318,6 +322,8 @@ class TechSidebar extends React.Component {
                             variant: "contained",
                             className: "prereqButton",
                             size: "small",
+                            title: blocked.isProject ? "Faction Project" : "Global Research",
+                            'aria-label': blocked ? (blocked.friendlyName + " "  + (blocked.isProject ? "Faction Project" : "Global Research")) : "",
                             color: blocked.isProject ? "success" : "primary"
                         },
                         blocked.friendlyName
