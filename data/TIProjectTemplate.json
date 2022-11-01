@@ -190,7 +190,7 @@
    "requiredMilestone": "",
    "effects": [
       "Effect_DetectAllOperations",
-      "",
+      "Effect_UpdateAlienThreatMeter",
       ""
    ],
    "oneTimeGlobally": false,
@@ -806,7 +806,7 @@
    "requiredMilestone": "",
    "effects": [
       "Effect_AlienRelationsEstablished",
-      "",
+      "Effect_FixAlienThreatMeter",
       ""
    ],
    "oneTimeGlobally": false,
@@ -973,7 +973,7 @@
    "altRequiredObjective0Name": "",
    "requiredMilestone": "",
    "effects": [
-      "",
+      "Effect_FixAlienThreatMeter",
       "",
       ""
    ],
@@ -1029,7 +1029,7 @@
    "altRequiredObjective0Name": "",
    "requiredMilestone": "",
    "effects": [
-      "",
+      "Effect_FixAlienThreatMeter",
       "",
       ""
    ],
@@ -2717,8 +2717,8 @@
    "repeatable": false,
    "requiresNation": "",
    "requiredControlPoint": [
-      "Spain",
-      "Rabat"
+      "",
+      ""
    ],
    "factionPrereq": [
       "",
@@ -2773,8 +2773,8 @@
    "repeatable": false,
    "requiresNation": "",
    "requiredControlPoint": [
-      "Mekelle",
-      "Yemen"
+      "",
+      ""
    ],
    "factionPrereq": [
       "",
@@ -2829,8 +2829,8 @@
    "repeatable": false,
    "requiresNation": "",
    "requiredControlPoint": [
-      "Sumatra",
-      "Java"
+      "",
+      ""
    ],
    "factionPrereq": [
       "",
@@ -2885,8 +2885,8 @@
    "repeatable": false,
    "requiresNation": "",
    "requiredControlPoint": [
-      "Alaska",
-      "RussianFarEast"
+      "",
+      ""
    ],
    "factionPrereq": [
       "",
@@ -2941,8 +2941,8 @@
    "repeatable": false,
    "requiresNation": "",
    "requiredControlPoint": [
-      "Sumatra",
-      "MalayPeninsula"
+      "",
+      ""
    ],
    "factionPrereq": [
       "",
@@ -2997,8 +2997,8 @@
    "repeatable": false,
    "requiresNation": "",
    "requiredControlPoint": [
-      "Egypt",
-      "Hijaz"
+      "",
+      ""
    ],
    "factionPrereq": [
       "",
@@ -3053,8 +3053,8 @@
    "repeatable": false,
    "requiresNation": "",
    "requiredControlPoint": [
-      "Afghanistan",
-      "Xinjiang"
+      "",
+      ""
    ],
    "factionPrereq": [
       "",
@@ -3109,8 +3109,8 @@
    "repeatable": false,
    "requiresNation": "",
    "requiredControlPoint": [
-      "Panama",
-      "Colombia"
+      "",
+      ""
    ],
    "factionPrereq": [
       "",
@@ -3165,8 +3165,8 @@
    "repeatable": false,
    "requiresNation": "",
    "requiredControlPoint": [
-      "RockyMountains",
-      "Monterrey"
+      "",
+      ""
    ],
    "factionPrereq": [
       "",
@@ -3176,7 +3176,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3232,7 +3232,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3288,7 +3288,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3344,7 +3344,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3400,7 +3400,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3456,7 +3456,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3512,7 +3512,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3568,7 +3568,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3624,7 +3624,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3680,7 +3680,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3736,7 +3736,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 25,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3792,7 +3792,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3837,7 +3837,7 @@
    "repeatable": false,
    "requiresNation": "GTM",
    "requiredControlPoint": [
-      "GTM",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -3848,7 +3848,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3893,7 +3893,7 @@
    "repeatable": false,
    "requiresNation": "USA",
    "requiredControlPoint": [
-      "USA",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -3904,7 +3904,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -3949,7 +3949,7 @@
    "repeatable": false,
    "requiresNation": "USA",
    "requiredControlPoint": [
-      "USA",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -3960,7 +3960,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4005,7 +4005,7 @@
    "repeatable": false,
    "requiresNation": "CSA",
    "requiredControlPoint": [
-      "CSA",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4016,7 +4016,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4061,7 +4061,7 @@
    "repeatable": false,
    "requiresNation": "ETH",
    "requiredControlPoint": [
-      "ETH",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4072,7 +4072,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4117,7 +4117,7 @@
    "repeatable": false,
    "requiresNation": "COL",
    "requiredControlPoint": [
-      "COL",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4128,7 +4128,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4173,7 +4173,7 @@
    "repeatable": false,
    "requiresNation": "BOL",
    "requiredControlPoint": [
-      "BOL",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4184,7 +4184,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4229,7 +4229,7 @@
    "repeatable": false,
    "requiresNation": "TUR",
    "requiredControlPoint": [
-      "TUR",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4240,7 +4240,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4285,7 +4285,7 @@
    "repeatable": false,
    "requiresNation": "EGY",
    "requiredControlPoint": [
-      "EGY",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4296,7 +4296,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4341,7 +4341,7 @@
    "repeatable": false,
    "requiresNation": "TZA",
    "requiredControlPoint": [
-      "TZA",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4352,7 +4352,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 90,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4397,7 +4397,7 @@
    "repeatable": false,
    "requiresNation": "IDN",
    "requiredControlPoint": [
-      "IDN",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4408,7 +4408,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4453,7 +4453,7 @@
    "repeatable": false,
    "requiresNation": "IDN",
    "requiredControlPoint": [
-      "IDN",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4464,7 +4464,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4509,7 +4509,7 @@
    "repeatable": false,
    "requiresNation": "IRN",
    "requiredControlPoint": [
-      "IRN",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4520,7 +4520,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4565,7 +4565,7 @@
    "repeatable": false,
    "requiresNation": "CPH",
    "requiredControlPoint": [
-      "CPH",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4576,7 +4576,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4621,7 +4621,7 @@
    "repeatable": false,
    "requiresNation": "CPH",
    "requiredControlPoint": [
-      "CPH",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4632,7 +4632,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4688,7 +4688,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 35,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4744,7 +4744,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4789,7 +4789,7 @@
    "repeatable": false,
    "requiresNation": "CHN",
    "requiredControlPoint": [
-      "CHN",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4800,7 +4800,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4845,7 +4845,7 @@
    "repeatable": false,
    "requiresNation": "DZA",
    "requiredControlPoint": [
-      "DZA",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4856,7 +4856,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4901,7 +4901,7 @@
    "repeatable": false,
    "requiresNation": "THA",
    "requiredControlPoint": [
-      "THA",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4912,7 +4912,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 60,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -4957,7 +4957,7 @@
    "repeatable": false,
    "requiresNation": "IND",
    "requiredControlPoint": [
-      "IND",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -4968,7 +4968,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -5013,7 +5013,7 @@
    "repeatable": false,
    "requiresNation": "DEU",
    "requiredControlPoint": [
-      "DEU",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -5024,7 +5024,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 10,
    "deltaUnlockChance": 5,
@@ -5069,7 +5069,7 @@
    "repeatable": false,
    "requiresNation": "POL",
    "requiredControlPoint": [
-      "POL",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -5080,7 +5080,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 5,
    "deltaUnlockChance": 5,
@@ -5125,7 +5125,7 @@
    "repeatable": false,
    "requiresNation": "EUA",
    "requiredControlPoint": [
-      "EUA",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -5136,7 +5136,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -5181,7 +5181,7 @@
    "repeatable": false,
    "requiresNation": "EUA",
    "requiredControlPoint": [
-      "EUA",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -5192,7 +5192,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -5237,7 +5237,7 @@
    "repeatable": false,
    "requiresNation": "RUS",
    "requiredControlPoint": [
-      "RUS",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -5248,7 +5248,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 10,
    "deltaUnlockChance": 10,
@@ -5293,7 +5293,7 @@
    "repeatable": false,
    "requiresNation": "RUS",
    "requiredControlPoint": [
-      "RUS",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -5304,7 +5304,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -5349,7 +5349,7 @@
    "repeatable": false,
    "requiresNation": "TWN",
    "requiredControlPoint": [
-      "TWN",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -5360,7 +5360,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 10,
    "deltaUnlockChance": 10,
@@ -5405,7 +5405,7 @@
    "repeatable": false,
    "requiresNation": "SCA",
    "requiredControlPoint": [
-      "SCA",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -5416,7 +5416,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 10,
    "deltaUnlockChance": 10,
@@ -5461,7 +5461,7 @@
    "repeatable": false,
    "requiresNation": "AUS",
    "requiredControlPoint": [
-      "AUS",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -5472,7 +5472,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -5517,7 +5517,7 @@
    "repeatable": false,
    "requiresNation": "MYS",
    "requiredControlPoint": [
-      "MYS",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -5528,7 +5528,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -5573,7 +5573,7 @@
    "repeatable": false,
    "requiresNation": "MYS",
    "requiredControlPoint": [
-      "MYS",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -5584,7 +5584,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -5640,7 +5640,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -5696,7 +5696,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -5752,7 +5752,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -5808,7 +5808,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -5864,7 +5864,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -5909,7 +5909,7 @@
    "repeatable": false,
    "requiresNation": "UGN",
    "requiredControlPoint": [
-      "UGN",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -5920,7 +5920,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -5965,7 +5965,7 @@
    "repeatable": false,
    "requiresNation": "NGA",
    "requiredControlPoint": [
-      "NGA",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -5976,7 +5976,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -6021,7 +6021,7 @@
    "repeatable": false,
    "requiresNation": "PER",
    "requiredControlPoint": [
-      "PER",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -6032,7 +6032,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -6077,7 +6077,7 @@
    "repeatable": false,
    "requiresNation": "AGO",
    "requiredControlPoint": [
-      "AGO",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -6088,7 +6088,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -6133,7 +6133,7 @@
    "repeatable": false,
    "requiresNation": "GBR",
    "requiredControlPoint": [
-      "GBR",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -6144,7 +6144,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -6189,7 +6189,7 @@
    "repeatable": false,
    "requiresNation": "JPN",
    "requiredControlPoint": [
-      "JPN",
+      "",
       ""
    ],
    "factionPrereq": [
@@ -6200,7 +6200,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -6312,7 +6312,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -6368,7 +6368,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -6480,7 +6480,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -6592,7 +6592,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -6648,7 +6648,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -6704,7 +6704,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -6760,7 +6760,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 60,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -6816,7 +6816,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -6984,7 +6984,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -7040,7 +7040,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -7096,7 +7096,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -7152,7 +7152,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -7525,8 +7525,8 @@
    "altRequiredObjective0Name": "",
    "requiredMilestone": "",
    "effects": [
-      "",
-      "",
+      "Effect_DummyTooltipInSituResourceUtilization1",
+      "Effect_DummyTooltipInSituResourceUtilization2",
       ""
    ],
    "oneTimeGlobally": false,
@@ -7600,7 +7600,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 35,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -7712,7 +7712,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 75,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 3,
@@ -7824,7 +7824,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 3,
@@ -7880,7 +7880,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 3,
@@ -8496,7 +8496,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 3,
@@ -9168,7 +9168,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -9224,7 +9224,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -10819,7 +10819,7 @@
       "Project_OrbitalCore",
       "AdvancedAtomicManipulation",
       "HighEnergyLasers",
-      "AntimatterContainment",
+      "AntimatterMassProduction",
       ""
    ],
    "altPrereq0": "",
@@ -10904,7 +10904,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -10936,7 +10936,7 @@
    ],
    "altPrereq0": "Project_SettlementCore",
    "requiredObjectiveNames": [
-      ""
+      "BeginTheSearch"
    ],
    "altRequiredObjective0Name": "",
    "requiredMilestone": "",
@@ -11016,7 +11016,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -11240,7 +11240,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -11352,7 +11352,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -11464,7 +11464,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -11520,7 +11520,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -11632,7 +11632,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -11688,7 +11688,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -11744,7 +11744,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -12080,7 +12080,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -12192,7 +12192,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -12248,7 +12248,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -12304,7 +12304,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -12360,7 +12360,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -12584,7 +12584,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -12640,7 +12640,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -12752,7 +12752,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -12864,7 +12864,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -12920,7 +12920,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -12976,7 +12976,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -13088,7 +13088,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -13200,7 +13200,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -13256,7 +13256,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -13312,7 +13312,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -13424,7 +13424,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -13536,7 +13536,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -13648,7 +13648,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -13704,7 +13704,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -13786,7 +13786,7 @@
    "prereqs": [
       "Project_RingCore",
       "Project_Atomsmasher",
-      "AntimatterMassProduction",
+      "",
       "",
       ""
    ],
@@ -13928,7 +13928,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 67,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -13984,7 +13984,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 10,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 3,
@@ -14040,7 +14040,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -14096,7 +14096,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -14152,7 +14152,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -14264,7 +14264,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -14376,7 +14376,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 25,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -14488,8 +14488,8 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
-   "factionAlways": "EscapeCouncil",
+   "factionAvailableChance": 100,
+   "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 10,
@@ -14600,7 +14600,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -14656,7 +14656,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 10,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -14680,7 +14680,7 @@
    "AI_projectRole": "Propulsion",
    "researchCost": 15000,
    "prereqs": [
-      "Project_ZPinchFusionReactorIII",
+      "Project_ZPinchFusionReactorII",
       "ProtonBoronFusion",
       "MagneticNozzles",
       "",
@@ -14712,7 +14712,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 15,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -14768,7 +14768,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 15,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -14824,7 +14824,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 10,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 3,
@@ -14880,7 +14880,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -15048,7 +15048,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -15160,7 +15160,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 10,
+   "factionAvailableChance": 25,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 1,
@@ -15182,7 +15182,7 @@
    "AI_techRole": "SpaceDevelopment",
    "AI_criticalTech": null,
    "AI_projectRole": "Propulsion",
-   "researchCost": 10000,
+   "researchCost": 20000,
    "prereqs": [
       "Project_HybridFusionDrive",
       "Project_HybridConfinementFusionReactorII",
@@ -15216,7 +15216,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 10,
+   "factionAvailableChance": 100,
    "factionAlways": "`",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 1,
@@ -15272,7 +15272,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 10,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -15294,7 +15294,7 @@
    "AI_techRole": "SpaceDevelopment",
    "AI_criticalTech": null,
    "AI_projectRole": "Propulsion",
-   "researchCost": 10000,
+   "researchCost": 20000,
    "prereqs": [
       "Project_ElectrostaticConfinementFusionReactorII",
       "HydrogenLithium6Fusion",
@@ -15328,7 +15328,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 10,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -15350,7 +15350,7 @@
    "AI_techRole": "SpaceDevelopment",
    "AI_criticalTech": null,
    "AI_projectRole": "Propulsion",
-   "researchCost": 20000,
+   "researchCost": 60000,
    "prereqs": [
       "Project_TritonPulseDrive",
       "Project_FlowStabilizedZPinchFusionReactor",
@@ -15384,7 +15384,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -15552,7 +15552,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 15,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -15664,7 +15664,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -15720,7 +15720,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 25,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -15776,7 +15776,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 15,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -15832,7 +15832,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 25,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -15888,7 +15888,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 5,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 1,
@@ -15944,8 +15944,8 @@
       "",
       ""
    ],
-   "factionAvailableChance": 15,
-   "factionAlways": "EscapeCouncil",
+   "factionAvailableChance": 100,
+   "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 1,
    "maxUnlockChance": 5,
@@ -15969,7 +15969,7 @@
    "researchCost": 20000,
    "prereqs": [
       "Project_GasCoreFissionReactorVI",
-      "Project_FlareDrive",
+      "",
       "",
       "",
       ""
@@ -16000,7 +16000,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 10,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16025,7 +16025,7 @@
    "researchCost": 10000,
    "prereqs": [
       "Project_GasCoreFissionReactorV",
-      "Project_BurnerDrive",
+      "",
       "",
       "",
       ""
@@ -16056,7 +16056,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 15,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16112,7 +16112,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16168,7 +16168,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 15,
+   "factionAvailableChance": 20,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16248,8 +16248,8 @@
    "AI_projectRole": "Propulsion",
    "researchCost": 10000,
    "prereqs": [
-      "Project_PharosDrive",
       "Project_GasCoreFissionReactorIV",
+      "",
       "",
       "",
       ""
@@ -16280,7 +16280,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 10,
+   "factionAvailableChance": 30,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16304,8 +16304,8 @@
    "AI_projectRole": "Propulsion",
    "researchCost": 5000,
    "prereqs": [
-      "Project_LightbulbDrive",
       "Project_GasCoreFissionReactorII",
+      "",
       "",
       "",
       ""
@@ -16336,7 +16336,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 15,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16392,7 +16392,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16448,7 +16448,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 15,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16504,7 +16504,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 30,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16560,7 +16560,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 60,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16616,7 +16616,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 15,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16728,7 +16728,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 15,
+   "factionAvailableChance": 30,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16752,8 +16752,8 @@
    "AI_projectRole": "Propulsion",
    "researchCost": 5000,
    "prereqs": [
+      "Project_LarsDrive",
       "Project_MoltenCoreFissionReactorII",
-      "",
       "",
       "",
       ""
@@ -16784,7 +16784,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 50,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16840,11 +16840,11 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
-   "maxUnlockChance": 50,
+   "maxUnlockChance": 100,
    "orgGranted": "",
    "resourcesGranted": [
       {
@@ -16864,7 +16864,7 @@
    "AI_projectRole": "Propulsion",
    "researchCost": 7500,
    "prereqs": [
-      "Project_SolidCoreFissionReactorVII",
+      "Project_PebbleDrive",
       "",
       "",
       "",
@@ -16896,7 +16896,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 10,
+   "factionAvailableChance": 65,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16952,7 +16952,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -16974,7 +16974,7 @@
    "AI_techRole": "SpaceDevelopment",
    "AI_criticalTech": null,
    "AI_projectRole": "Propulsion",
-   "researchCost": 5000,
+   "researchCost": 8000,
    "prereqs": [
       "Project_PulsarDrive",
       "",
@@ -17008,7 +17008,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 10,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -17064,7 +17064,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -17086,10 +17086,10 @@
    "AI_techRole": "SpaceDevelopment",
    "AI_criticalTech": null,
    "AI_projectRole": "Propulsion",
-   "researchCost": 5000,
+   "researchCost": 7000,
    "prereqs": [
       "Project_Dumbo",
-      "",
+      "Project_SolidCoreFissionReactorIV",
       "",
       "",
       ""
@@ -17120,7 +17120,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -17176,7 +17176,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 50,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -17232,7 +17232,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 25,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -17568,7 +17568,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -17624,7 +17624,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -17680,7 +17680,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -17736,7 +17736,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 25,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -17792,7 +17792,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 25,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -17848,7 +17848,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 30,
+   "factionAvailableChance": 50,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -17872,8 +17872,8 @@
    "AI_projectRole": "Propulsion",
    "researchCost": 1500,
    "prereqs": [
-      "ElectromagneticPropulsion",
       "Project_VASIMR",
+      "",
       "",
       "",
       ""
@@ -17904,7 +17904,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 50,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -17960,7 +17960,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -18016,7 +18016,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -18072,7 +18072,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 50,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -18352,7 +18352,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 50,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -18464,7 +18464,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -18912,7 +18912,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -19192,7 +19192,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -19248,7 +19248,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -19304,7 +19304,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -19360,7 +19360,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -19416,7 +19416,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -19472,7 +19472,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -19528,7 +19528,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -19640,7 +19640,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -19696,7 +19696,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -19808,7 +19808,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -19864,7 +19864,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -20032,7 +20032,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -20088,7 +20088,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 60,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -20144,7 +20144,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -20200,7 +20200,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -20256,7 +20256,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 15,
+   "factionAvailableChance": 20,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -20312,7 +20312,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 5,
+   "factionAvailableChance": 10,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 2,
@@ -20536,7 +20536,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 100,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 25,
@@ -20592,7 +20592,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 60,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -20648,7 +20648,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 60,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -20816,7 +20816,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 60,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -20928,7 +20928,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -20984,7 +20984,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -21040,7 +21040,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -21096,7 +21096,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -21118,7 +21118,7 @@
    "AI_techRole": "SpaceDevelopment",
    "AI_criticalTech": null,
    "AI_projectRole": "PowerPlant",
-   "researchCost": 10000,
+   "researchCost": 20000,
    "prereqs": [
       "DeuteriumHelium3Fusion",
       "Project_ZPinchFusionReactorIII",
@@ -21152,7 +21152,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 100,
+   "factionAvailableChance": 25,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 25,
@@ -21208,7 +21208,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 100,
+   "factionAvailableChance": 35,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 25,
@@ -21264,7 +21264,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -21320,7 +21320,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -21488,7 +21488,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 90,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -21544,7 +21544,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -21600,7 +21600,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -21656,7 +21656,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -21712,7 +21712,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 40,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -21824,7 +21824,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 100,
+   "factionAvailableChance": 50,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -21936,7 +21936,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 100,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -21992,7 +21992,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -22104,7 +22104,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -22160,7 +22160,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -22272,7 +22272,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -22328,7 +22328,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -22384,7 +22384,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -22440,7 +22440,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -22496,7 +22496,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -22608,7 +22608,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -22664,7 +22664,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -22720,7 +22720,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -22776,7 +22776,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -22888,7 +22888,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -22944,7 +22944,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 20,
+   "factionAvailableChance": 40,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 5,
@@ -23112,7 +23112,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 40,
    "deltaUnlockChance": 30,
@@ -23168,7 +23168,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 10,
    "deltaUnlockChance": 20,
@@ -23224,7 +23224,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 60,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 20,
@@ -23392,7 +23392,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 30,
    "deltaUnlockChance": 15,
@@ -23448,7 +23448,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 30,
    "deltaUnlockChance": 15,
@@ -23560,7 +23560,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 75,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 30,
    "deltaUnlockChance": 15,
@@ -23840,7 +23840,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 30,
    "deltaUnlockChance": 15,
@@ -23896,7 +23896,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 30,
    "deltaUnlockChance": 15,
@@ -24008,7 +24008,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 30,
    "deltaUnlockChance": 15,
@@ -24064,7 +24064,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -24080,7 +24080,7 @@
    "completedIllustrationPath": ""
 },
  {
-   "friendlyName": "Particle Cannon (Project)",
+   "friendlyName": "Particle Cannon",
    "dataName": "Project_ParticleCannonMk1",
    "techCategory": "MilitaryScience",
    "AI_techRole": "SpaceWar",
@@ -24176,7 +24176,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -24232,7 +24232,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -24288,7 +24288,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -24344,7 +24344,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -24400,7 +24400,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -24456,7 +24456,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -24512,7 +24512,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -24568,7 +24568,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -24624,7 +24624,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -24736,7 +24736,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -24792,7 +24792,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -24848,7 +24848,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -25464,7 +25464,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -25576,7 +25576,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -25688,7 +25688,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -26584,7 +26584,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 20,
@@ -26752,7 +26752,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 90,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 20,
@@ -26808,7 +26808,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -26864,7 +26864,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -26920,7 +26920,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 60,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -26976,7 +26976,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 60,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -27032,7 +27032,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -27200,7 +27200,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 90,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 20,
@@ -27256,7 +27256,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -27312,7 +27312,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -27368,7 +27368,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 60,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -27424,7 +27424,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 60,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -27480,7 +27480,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -27648,7 +27648,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 90,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 20,
@@ -27704,7 +27704,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -27760,7 +27760,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -27816,7 +27816,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 60,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -27872,7 +27872,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 60,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -27928,7 +27928,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -28040,7 +28040,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -28096,7 +28096,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -28152,7 +28152,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -28208,7 +28208,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -28264,7 +28264,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -28320,7 +28320,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -28432,7 +28432,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -28488,7 +28488,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -28544,7 +28544,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -28600,7 +28600,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -28656,7 +28656,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -28712,7 +28712,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -28824,7 +28824,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -28880,7 +28880,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -28936,7 +28936,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -28992,7 +28992,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -29048,7 +29048,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -29104,7 +29104,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -29216,7 +29216,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -29272,7 +29272,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -29328,7 +29328,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -29384,7 +29384,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -29440,7 +29440,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -29496,7 +29496,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -29608,7 +29608,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -29664,7 +29664,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -29720,7 +29720,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -29776,7 +29776,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -29832,7 +29832,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -29888,7 +29888,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -30000,7 +30000,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 34,
@@ -30056,7 +30056,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -30112,7 +30112,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 80,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -30168,7 +30168,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 70,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -30224,7 +30224,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -30280,7 +30280,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 15,
@@ -31625,7 +31625,7 @@
       ""
    ],
    "factionAvailableChance": 50,
-   "factionAlways": "",
+   "factionAlways": "ExploitCouncil",
    "initialUnlockChance": 15,
    "deltaUnlockChance": 8,
    "maxUnlockChance": 75,
@@ -31904,7 +31904,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 50,
+   "factionAvailableChance": 100,
    "factionAlways": "",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 10,
@@ -32185,7 +32185,7 @@
       ""
    ],
    "factionAvailableChance": 80,
-   "factionAlways": "",
+   "factionAlways": "ResistCouncil",
    "initialUnlockChance": 0,
    "deltaUnlockChance": 8,
    "maxUnlockChance": 100,
@@ -32465,7 +32465,7 @@
       ""
    ],
    "factionAvailableChance": 100,
-   "factionAlways": "",
+   "factionAlways": "DestroyCouncil",
    "initialUnlockChance": 5,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 50,
@@ -32801,7 +32801,7 @@
       ""
    ],
    "factionAvailableChance": 100,
-   "factionAlways": "",
+   "factionAlways": "SubmitCouncil",
    "initialUnlockChance": 5,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 50,
@@ -32857,7 +32857,7 @@
       ""
    ],
    "factionAvailableChance": 80,
-   "factionAlways": "",
+   "factionAlways": "SubmitCouncil",
    "initialUnlockChance": 5,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 50,
@@ -38624,7 +38624,7 @@
       "",
       ""
    ],
-   "factionAvailableChance": 35,
+   "factionAvailableChance": 50,
    "factionAlways": "DestroyCouncil",
    "initialUnlockChance": 5,
    "deltaUnlockChance": 10,
@@ -38904,8 +38904,8 @@
       "EscapeCouncil",
       ""
    ],
-   "factionAvailableChance": 100,
-   "factionAlways": "",
+   "factionAvailableChance": 90,
+   "factionAlways": "DestroyCouncil",
    "initialUnlockChance": 20,
    "deltaUnlockChance": 0,
    "maxUnlockChance": 100,
@@ -38960,7 +38960,7 @@
       "EscapeCouncil",
       "AppeaseCouncil"
    ],
-   "factionAvailableChance": 100,
+   "factionAvailableChance": 90,
    "factionAlways": "",
    "initialUnlockChance": 20,
    "deltaUnlockChance": 5,
@@ -39016,7 +39016,7 @@
       "EscapeCouncil",
       "AppeaseCouncil"
    ],
-   "factionAvailableChance": 100,
+   "factionAvailableChance": 90,
    "factionAlways": "",
    "initialUnlockChance": 20,
    "deltaUnlockChance": 5,
@@ -39072,8 +39072,8 @@
       "EscapeCouncil",
       "AppeaseCouncil"
    ],
-   "factionAvailableChance": 100,
-   "factionAlways": "",
+   "factionAvailableChance": 90,
+   "factionAlways": "CooperateCouncil",
    "initialUnlockChance": 20,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 70,
@@ -39128,7 +39128,7 @@
       "EscapeCouncil",
       "AppeaseCouncil"
    ],
-   "factionAvailableChance": 100,
+   "factionAvailableChance": 90,
    "factionAlways": "",
    "initialUnlockChance": 20,
    "deltaUnlockChance": 5,
@@ -39184,8 +39184,8 @@
       "EscapeCouncil",
       ""
    ],
-   "factionAvailableChance": 100,
-   "factionAlways": "",
+   "factionAvailableChance": 90,
+   "factionAlways": "DestroyCouncil",
    "initialUnlockChance": 20,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 70,
@@ -39240,7 +39240,7 @@
       "EscapeCouncil",
       "AppeaseCouncil"
    ],
-   "factionAvailableChance": 100,
+   "factionAvailableChance": 90,
    "factionAlways": "",
    "initialUnlockChance": 20,
    "deltaUnlockChance": 5,
@@ -39296,8 +39296,8 @@
       "EscapeCouncil",
       ""
    ],
-   "factionAvailableChance": 100,
-   "factionAlways": "",
+   "factionAvailableChance": 90,
+   "factionAlways": "ResistCouncil",
    "initialUnlockChance": 20,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 70,
@@ -39352,8 +39352,8 @@
       "EscapeCouncil",
       "AppeaseCouncil"
    ],
-   "factionAvailableChance": 100,
-   "factionAlways": "",
+   "factionAvailableChance": 90,
+   "factionAlways": "ExploitCouncil",
    "initialUnlockChance": 20,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 70,
@@ -39408,7 +39408,7 @@
       "EscapeCouncil",
       "AppeaseCouncil"
    ],
-   "factionAvailableChance": 100,
+   "factionAvailableChance": 90,
    "factionAlways": "",
    "initialUnlockChance": 20,
    "deltaUnlockChance": 5,
@@ -39464,7 +39464,7 @@
       "EscapeCouncil",
       "AppeaseCouncil"
    ],
-   "factionAvailableChance": 100,
+   "factionAvailableChance": 90,
    "factionAlways": "",
    "initialUnlockChance": 20,
    "deltaUnlockChance": 5,
@@ -39520,8 +39520,8 @@
       "EscapeCouncil",
       "AppeaseCouncil"
    ],
-   "factionAvailableChance": 100,
-   "factionAlways": "",
+   "factionAvailableChance": 90,
+   "factionAlways": "DestroyCouncil",
    "initialUnlockChance": 20,
    "deltaUnlockChance": 5,
    "maxUnlockChance": 70,

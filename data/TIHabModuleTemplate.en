@@ -288,4 +288,3 @@ HabModuleSpecialRule.LEOBonusKnowledge=-Grants +{1} bonus to our investments in 
 HabModuleSpecialRule.LEOBonusMissionControl=-Grants +{1} bonus to our investments in the Mission Control priority if module is in an Earth interface orbit, up to a maximum of 30% from all faction habs
 HabModuleSpecialRule.LEOBonusEconomy=-Grants +{1} bonus to our investments in the Economy priority if module is in an Earth interface orbit, up to a maximum of 30% from all faction habs
 HabModuleSpecialRule.LEOBonusUnity=-Grants +{1} bonus to our investments in the Unity priority if module is in an Earth interface orbit, up to a maximum of 30% from all faction habs
-

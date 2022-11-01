@@ -1,0 +1,34 @@
+[
+	{
+		"dataName": "ResistPlayer",
+		"council": "ResistCouncil",
+	},
+	{
+		"dataName": "DestroyPlayer",
+		"council": "DestroyCouncil",
+	},
+	{
+		"dataName": "ExploitPlayer",
+		"council": "ExploitCouncil",
+	},
+	{
+		"dataName": "SubmitPlayer",
+		"council": "SubmitCouncil",
+	},
+	{
+		"dataName": "AppeasePlayer",
+		"council": "AppeaseCouncil",
+	},
+	{
+		"dataName": "CooperatePlayer",
+		"council": "CooperateCouncil",
+	},
+	{
+		"dataName": "EscapePlayer",
+		"council": "EscapeCouncil",
+	},
+	{
+		"dataName": "AlienPlayer",
+		"council": "AlienCouncil",
+	}
+]
