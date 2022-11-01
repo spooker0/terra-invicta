@@ -173,6 +173,7 @@ window.onload = init();
 //     }
 // }
 
+
 function init() {
     const fetchLocPaths = [
         'TITechTemplate.en',
@@ -259,6 +260,7 @@ function fetchModule(path, modType, callback) {
 
 function parseModule(module, modType) {
     modules[modType] = JSON.parse(module);
+    modules[modType].forEach(setLocalisationForObject);
 }
 
 function findModule(moduleName) {
@@ -277,8 +279,8 @@ function initSearchBox() {
 
     documentSearchIndex = new FlexSearch.Document({
         document: {
-            index: ["friendlyName"],
-            store: ["friendlyName", "dataName"]
+            index: ["prefferedName"],
+            store: ["prefferedName", "dataName"]
         },
         tokenize: "full"
     });
@@ -434,7 +436,7 @@ function parseNode(nodeType, dumpAllEdges) {
         }
 
         nodeBucket.push({
-            label: "<b>" + tech.friendlyName + "</b>",
+            label: "<b>" + tech.prefferedName + "</b>",
             id: tech.dataName,
             shape: "circularImage",
             image: getTechIconFile(tech.techCategory),
@@ -525,3 +527,14 @@ function findTechByName(techName) {
     let tech = techTree.find(tech => tech.dataName === techName);
     return tech;
 }
+
+
+function setLocalisationForObject(obj) {
+    if (localizationData[obj.dataName] !== undefined) {
+        obj.displayName = localizationData[obj.dataName].displayName;    
+    } else {
+        console.log("Cannot find data for " + obj.dataName);
+    }
+    obj.prefferedName = obj.displayName || obj.friendlyName;
+}
+
