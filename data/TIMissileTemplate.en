@@ -55,5 +55,6 @@ TIMissileTemplate.WarheadType.Penetrator=Penetrator
 TIMissileTemplate.WarheadType.Fragmentation=Fragmentation
 TIMissileTemplate.WarheadType.Nuclear=Nuclear
 TIMissileTemplate.WarheadType.ShapedNuclear=Shaped Nuclear
+TIMissileTemplate.WarheadType.Antimatter=Antimatter
 TIMissileTemplate.Acc=Acceleration:<rcol>{0} gs</rcol>
 TIMissileTemplate.DV=Delta-V:<rcol>{0} kps</rcol>

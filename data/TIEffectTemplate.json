@@ -9828,6 +9828,48 @@
    ]
 },
  {
+   "dataName": "Effect_DummyTooltipInSituResourceUtilization1",
+   "instantEffect": "",
+   "operation": "",
+   "value": null,
+   "instantRnd": null,
+   "strValue": "",
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "",
+   "effectDuration": "instant",
+   "stackable": null,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "",
+      ""
+   ],
+   "contexts": [
+      "",
+      ""
+   ]
+},
+ {
+   "dataName": "Effect_DummyTooltipInSituResourceUtilization2",
+   "instantEffect": "",
+   "operation": "",
+   "value": null,
+   "instantRnd": null,
+   "strValue": "",
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "",
+   "effectDuration": "instant",
+   "stackable": null,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "",
+      ""
+   ],
+   "contexts": [
+      "",
+      ""
+   ]
+},
+ {
    "dataName": "Effect_ShipDefectsToSecondary",
    "instantEffect": "ShipDefectsToSecondary",
    "operation": "",
@@ -11378,6 +11420,48 @@
    ],
    "contexts": [
       "Mission_Abductions_Def",
+      ""
+   ]
+},
+ {
+   "dataName": "Effect_UpdateAlienThreatMeter",
+   "instantEffect": "UpdateAlienThreatMeter",
+   "operation": "",
+   "value": null,
+   "instantRnd": null,
+   "strValue": "",
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "",
+   "effectDuration": "instant",
+   "stackable": null,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "",
+      ""
+   ],
+   "contexts": [
+      "",
+      ""
+   ]
+},
+ {
+   "dataName": "Effect_FixAlienThreatMeter",
+   "instantEffect": "UpdateAlienThreatMeter_Accurate",
+   "operation": "",
+   "value": null,
+   "instantRnd": null,
+   "strValue": "",
+   "effectTarget": "SourceFaction",
+   "effectSecondaryTarget": "",
+   "effectDuration": "instant",
+   "stackable": null,
+   "duration_months": -1,
+   "initialFactionsStr": [
+      "",
+      ""
+   ],
+   "contexts": [
+      "",
       ""
    ]
 }
