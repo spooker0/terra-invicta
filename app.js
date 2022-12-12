@@ -316,6 +316,11 @@ function parseDefaults(callback) {
 
         initSearchBox();
 
+        let savedTechTree = JSON.parse(localStorage.techTree);
+        techTree.forEach(tech => {
+            tech.researchDone = savedTechTree[tech.dataName].researchDone;
+        });
+
         if (callback)
             callback();
     }, 1);
