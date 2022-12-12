@@ -189,7 +189,7 @@ class TechSidebar extends React.Component {
                         this.getAncestorTechs(node).forEach(tech => tech.researchDone = true);
                     }
                     this.setState({ node: node });
-                    this.saveTechTree();
+                    saveTechTree();
                 },
                 className: "topTechbarButton",
                 color: node.researchDone ? "error" : "success"
@@ -485,16 +485,6 @@ class TechSidebar extends React.Component {
             completionLabel,
             completionText
         );
-    }
-
-    saveTechTree() {
-        let trimmedTechTree = {};
-        techTree.forEach(tech => {
-            trimmedTechTree[tech.dataName] = {
-                'researchDone': !!tech.researchDone
-            }
-        });
-        localStorage.techTree = JSON.stringify(trimmedTechTree);
     }
 }
 
