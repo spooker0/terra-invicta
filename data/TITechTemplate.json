@@ -1634,7 +1634,7 @@
    "researchCost": 50000,
    "prereqs": [
       "AdvancedFissionSystems",
-      "",
+      "FissionPulseDrives",
       ""
    ],
    "altPrereq0": "",
@@ -1840,8 +1840,8 @@
    "altPrereq0": "",
    "year": "",
    "effects": [
-      "",
-      "",
+      "Effect_DummyTooltipInSituResourceUtilization1",
+      "Effect_DummyTooltipInSituResourceUtilization2",
       "",
       ""
    ],
@@ -3334,7 +3334,7 @@
    "researchCost": 30000,
    "prereqs": [
       "NetworkedGlobalDefense",
-      "TransformPhages",
+      "DesignerLifeforms",
       ""
    ],
    "altPrereq0": "",
@@ -3509,7 +3509,7 @@
    "researchCost": 60000,
    "prereqs": [
       "VisibleCombatLasers",
-      "",
+      "MilitarizationofSpace",
       ""
    ],
    "altPrereq0": "",
@@ -3554,7 +3554,7 @@
    "dataName": "VacuumElectrostaticPrinciples",
    "techCategory": "Energy",
    "AI_techRole": "SpaceDevelopment",
-   "AI_criticalTech": true,
+   "AI_criticalTech": null,
    "endGameTech": null,
    "researchCost": 1000,
    "prereqs": [
@@ -3584,7 +3584,7 @@
    "researchCost": 25000,
    "prereqs": [
       "InfraredCombatLasers",
-      "",
+      "AdvancedHeatManagementConcepts",
       ""
    ],
    "altPrereq0": "",
@@ -3658,7 +3658,7 @@
    "endGameTech": null,
    "researchCost": 15000,
    "prereqs": [
-      "MagneticForceManipulation",
+      "MagneticPlasmaConfinementTechniques",
       "",
       ""
    ],

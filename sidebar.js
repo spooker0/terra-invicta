@@ -189,6 +189,7 @@ class TechSidebar extends React.Component {
                         this.getAncestorTechs(node).forEach(tech => tech.researchDone = true);
                     }
                     this.setState({ node: node });
+                    saveTechTree();
                 },
                 className: "topTechbarButton",
                 color: node.researchDone ? "error" : "success"

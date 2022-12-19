@@ -16,7 +16,7 @@ TIProjectTemplate.description.Project_TheirMovements=By studying residue found i
 
 TIProjectTemplate.displayName.Project_TheirOrigin=Alien Origin
 TIProjectTemplate.summary.Project_TheirOrigin=We use astronomical data to theorize about where the aliens are coming from.
-TIProjectTemplate.description.Project_TheirOrigin=There are a multitude of theories about whether the aliens hail from, running the gamut from plausible to absurd. Maddeningly, our further study of alien debris cannot quite be said to rule anything out. Our long-range scanners have confirmed that, yes, there is a large and strikingly regular-shaped mass of similar materials in the deeper reaches of this solar system, strongly suggesting the presence of some manner of alien installation. However, our scans have also confirmed that not all of the substances within the debris are available locally, as it were. Thus, though our visitors do indeed have an industrial-scale presence within Sol's orbit, they almost certainly did not originate from it. 
+TIProjectTemplate.description.Project_TheirOrigin=There are a multitude of theories about where the aliens hail from, running the gamut from plausible to absurd. Maddeningly, our further study of alien debris cannot quite be said to rule anything out. Judging by the isotope ratios of lead and some other elements, most of it seems to originate from our Solar System (or, far less likely, a star system of identical age to ours), while small amounts do not seem to be of local origin and some are entirely unknown to us. Thus, though our visitors do have an industrial-scale presence within Sol's orbit, they almost certainly did not begin here.
 
 TIProjectTemplate.displayName.Project_HydraBiology=Hydra Biology
 TIProjectTemplate.summary.Project_HydraBiology=We perform an autopsy on the Hydra corpus to deepen our understanding of alien physiology.
@@ -43,7 +43,7 @@ TIProjectTemplate.summary.Project_Exotics=We further analyze samples of the reco
 TIProjectTemplate.description.Project_Exotics=After exhaustive analyses and stress tests, we have little idea of what this material truly is. We do, however, know what it is not. Despite previously believing that these so-called “Exotics” were some manner of hitherto unknown alloy, we have determined that it can also exist in a non-solid state, such as within the coolant of the alien warship's heatsinks. It would appear that, rather than being a construction material itself, it will instead improve and augment the durability or electrical conductivity of any other substance it is applied to.<br/><br/>While establishing the exact composition of Exotics continues to elude us - most certainly, they are not of our solar system - we have been able to separate significant quantities of them from the alien materials they are bonded to. This has enabled us to attempt implementation of the material in many of our own technologies - and, happily, it readily adapts to almost any process it is subjected to, as its atomic structure can move between anionic to cationic with ease. It is, simply, astonishingly versatile.
 
 TIProjectTemplate.displayName.Project_ExoticHybridSystems=Exotic Hybrid Systems
-TIProjectTemplate.summary.Project_ExoticHybridSystems=We explore possible applications of the alien Exotics for extreme long-distance space travel.
+TIProjectTemplate.summary.Project_ExoticHybridSystems=We explore possible applications of the alien Exotics for Earth warfare and extreme long-distance space travel.
 TIProjectTemplate.description.Project_ExoticHybridSystems=Some among us might behold the remarkable properties of the alien Exotics and see only a potent source of weapons and armor. Yet it is in looking beyond the ancient human proclivity for conflict that we have unlocked the alien material's greatest potential. Initial experiments in instead applying it to prototype drives and reactors have resulted in feats of efficiency, conductivity and resilience far beyond what was previously thought possible. There is growing confidence that this discovery could even enable humanity to travel beyond our own solar system.
 
 TIProjectTemplate.displayName.Project_ANewHome=A New Home
@@ -1450,7 +1450,7 @@ TIProjectTemplate.summary.Project_HardenedHabShelters=Our off-Earth bases become
 TIProjectTemplate.displayName.Project_SalamanderAutopsy=Salamander Autopsy
 TIProjectTemplate.summary.Project_SalamanderAutopsy=We study the remains of salamander alien in hopes of learning how to defeat them in combat.
 TIProjectTemplate.displayName.Project_SalamanderInterrogation=Salamander Interrogation
-TIProjectTemplate.summary.Project_SalamanderInterrogation=We may learn more about alien terror operations from the this creature.
+TIProjectTemplate.summary.Project_SalamanderInterrogation=We may learn more about alien terror operations from this creature.
 TIProjectTemplate.displayName.Project_GriffinAutopsy=Griffin Autopsy
 TIProjectTemplate.summary.Project_GriffinAutopsy=The Griffin's anatomy suggests it is poorly adapted for a world with our gravity.
 TIProjectTemplate.displayName.Project_GriffinInterrogation=Griffin Interrogation

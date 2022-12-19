@@ -308,6 +308,15 @@ function parseDefaults(callback) {
     setTimeout(() => {
         techTree = techs.concat(projects);
 
+        try {
+            let savedTechTree = JSON.parse(localStorage.techTree);
+            techTree.forEach(tech => {
+                tech.researchDone = savedTechTree[tech.dataName].researchDone;
+            });
+        } catch {
+            // Deliberately blank - if no tech tree is saved, we don't care
+        };
+
         parseNode(techTree);
         data.nodes = new vis.DataSet(nodes);
         data.edges = new vis.DataSet(edges);
@@ -524,4 +533,14 @@ function determineLevel(tech, validNodes) {
 function findTechByName(techName) {
     let tech = techTree.find(tech => tech.dataName === techName);
     return tech;
+}
+
+function saveTechTree() {
+    let trimmedTechTree = {};
+    techTree.forEach(tech => {
+        trimmedTechTree[tech.dataName] = {
+            'researchDone': !!tech.researchDone
+        }
+    });
+    localStorage.techTree = JSON.stringify(trimmedTechTree);
 }
